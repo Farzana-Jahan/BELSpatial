@@ -1,0 +1,16 @@
+Package: BELSpatial
+Type: Package
+Title: Fits Bayesian hierarchical Empirical Likelihood Models to spatial data in small area level
+Version: 0.1.0
+Author: Farzana Jahan and Daniel Kennedy
+Maintainer: Farzana Jahan <fjahan0518@gmail.com>
+Description: The package contains codes for Metropolis Hastings algorithm to fit BEL spatial models using popular CAR priors and Moran Basis prior assigned to spatial random effects in a hierarchical set up.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  gmm,
+  MASS,
+  tidyverse,
+  emplik
+RoxygenNote: 7.1.1
