@@ -2,7 +2,7 @@
  
 This repository contains the code to draw posterior samples using MCMC procedure via a Metropolis Hastings (MH) algorithm from SBEL_CAR models proposed by Jahan et al. (2020). 
  
-Using the function, BEL_leroux_new, posterior samples for fixed regression effects, precision paramter and spatial random effects can be drawn for SBEL-Leroux (specifying appropriate value of spatial autocorrelation $\rho$), SBEL-BYM (specifying $\rho=1$). The function also can be used to draw posterior samples from SBEL-IG model (specifying $\rho=0$) proposed by Chaudhuri et al. (2011) applying Independent Gaussian priors for the spatial random effects. 
+Using the function, BEL_leroux_new, posterior samples for fixed regression effects, precision paramter and spatial random effects can be drawn for SBEL-Leroux (specifying appropriate value of spatial autocorrelation Rho), SBEL-BYM (specifying  =1). The function also can be used to draw posterior samples from SBEL-IG model (specifying Rho=0) proposed by Chaudhuri et al. (2011) applying Independent Gaussian priors for the spatial random effects. 
 
 The function, BSHEL, can be used to draw posteriors of interest from the Bayesian semi-paramteric Hierarchical Empirical Likelihood Models proposed by Porter et al. (2015). 
 
