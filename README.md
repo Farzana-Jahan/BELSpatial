@@ -1,11 +1,12 @@
-# Steps for working on this package
+ #Functions for Markov Chain Monte Carlo (MCMC) posterior inference on spatial Bayesian Empirical Likelihood (SBEL) models
+ 
+This repository contains the code to draw posterior samples using MCMC procedure via a Metropolis Hastings (MH) algorithm from SBEL_CAR models proposed by Jahan et al. (2020). 
+ 
+Using the function, BEL_leroux_new, posterior samples for fixed regression effects, precision paramter and spatial random effects can be drawn for SBEL-Leroux (specifying appropriate value of spatial autocorrelation $\rho$), SBEL-BYM (specifying $\rho=1$). The function also can be used to draw posterior samples from SBEL-IG model (specifying $\rho=0$) proposed by Chaudhuri et al. (2011) applying Independent Gaussian priors for the spatial random effects. 
 
-  1. Click the `BELSpatial.Rproj` file to open up a new environment.
-  2. To load all of the current functions so you can test them, run `devtools::load_all()` in the console.
-  3. To update the documentation after adding functions with `#'` comments above them, run `devtools::document()` or in the "Build" tab, click "More" then "Document".
-  3. To check that the package can be installed, click "Check", and wait for it to check. It will fail if there are errors or warnings, so you can scroll through the output to work out the issue. Don't hesitate to send me the relevant output as well as update the git repository if you can't work out the issue.
-  4. If you want to install the package you can either run `devtools::install_github("danwkenn\BELSpatial")` or `devtools::install_github("\path\to\this\directory")`.
-  
-There are two `.R` files in the `R/` directory containing functions. It's good practice to put similar functions in the same `.R` script file. All code needs to be put in an `.R` file in the `R/` directory. Otherwise, do what you like!
+The function, BSHEL, can be used to draw posteriors of interest from the Bayesian semi-paramteric Hierarchical Empirical Likelihood Models proposed by Porter et al. (2015). 
 
-The `.R` files in there should give you an idea how to write the functions as well as how to write the documentation, using the `#'` at the start of the line.
+##References:
+1. Jahan, F, Kennedy, DW, Duncan, EW and Mengesen, KL(2020). Robust spatial modelling using Bayesian Empirical Likelihood models. Working paper, to be submitted to Statistical Modelling.
+2. Chaudhuri, S., & Ghosh, M. (2011). Empirical likelihood for small area estimation. Biometrika, 473-480.
+3. Porter, A. T., Holan, S. H., & Wikle, C. K. (2015). Bayesian semiparametric hierarchical empirical likelihood spatial models. Journal of Statistical Planning and Inference, 165, 78-90.
