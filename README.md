@@ -1,4 +1,4 @@
- #Functions for Markov Chain Monte Carlo (MCMC) posterior inference on spatial Bayesian Empirical Likelihood (SBEL) models
+**Functions for Markov Chain Monte Carlo (MCMC) posterior inference on spatial Bayesian Empirical Likelihood (SBEL) models**
  
 This repository contains the code to draw posterior samples using MCMC procedure via a Metropolis Hastings (MH) algorithm from SBEL_CAR models proposed by Jahan et al. (2020). 
  
@@ -6,7 +6,7 @@ Using the function, BEL_leroux_new, posterior samples for fixed regression effec
 
 The function, BSHEL, can be used to draw posteriors of interest from the Bayesian semi-paramteric Hierarchical Empirical Likelihood Models proposed by Porter et al. (2015). 
 
-##References:
+**References:**
 1. Jahan, F, Kennedy, DW, Duncan, EW and Mengesen, KL(2020). Robust spatial modelling using Bayesian Empirical Likelihood models. Working paper, to be submitted to Statistical Modelling.
 2. Chaudhuri, S., & Ghosh, M. (2011). Empirical likelihood for small area estimation. Biometrika, 473-480.
 3. Porter, A. T., Holan, S. H., & Wikle, C. K. (2015). Bayesian semiparametric hierarchical empirical likelihood spatial models. Journal of Statistical Planning and Inference, 165, 78-90.
