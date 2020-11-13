@@ -7,6 +7,6 @@ Using the function, BEL_leroux_new, posterior samples for fixed regression effec
 The function, BSHEL, can be used to draw posteriors of interest from the Bayesian semi-paramteric Hierarchical Empirical Likelihood Models proposed by Porter et al. (2015). 
 
 **References:**
-1. Jahan F, Kennedy DW, Duncan EW and Mengesen KL(2020). Robust spatial modelling using Bayesian Empirical Likelihood models. Working paper, to be submitted to Statistical Modelling.
+1. Jahan F, Kennedy DW, Duncan EW & Mengesen KL(2020). Robust spatial modelling using Bayesian Empirical Likelihood models. Working paper, to be submitted to Statistical Modelling.
 2. Chaudhuri, S., & Ghosh, M. (2011). Empirical likelihood for small area estimation. Biometrika, 473-480. https://www.jstor.org/stable/23076164?seq=1#metadata_info_tab_contents
 3. Porter, A. T., Holan, S. H., & Wikle, C. K. (2015). Bayesian semiparametric hierarchical empirical likelihood spatial models. Journal of Statistical Planning and Inference, 165, 78-90. https://www.sciencedirect.com/science/article/pii/S0378375815000749
